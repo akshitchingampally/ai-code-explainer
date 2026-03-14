@@ -4,7 +4,7 @@ from openai import OpenAI
 app = Flask(__name__)
 
 client = OpenAI(
-    api_key="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",
+    api_key="YOUR_API_KEY",
     base_url="https://openrouter.ai/api/v1"
 )
 
